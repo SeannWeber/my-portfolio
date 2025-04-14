@@ -12,6 +12,7 @@ body {
   }
   .content {
     padding: 20px;
+    text-align: center;
   }
   footer {
     background-color: #333;
