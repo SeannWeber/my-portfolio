@@ -2,20 +2,44 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('images/pic6.jpg'); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+  .hero {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+  }
+
+
   header {
     background-color: #333;
     color: white;
     padding: 1rem;
     text-align: center;
   }
+
+
   .content {
     padding: 20px;
     text-align: center;
+    background-color: transparent;
+    color: white;
+    line-height: 1.6;
   }
+
+
   footer {
-    background-color: #333;
+    background-color: transparent;
     color: white;
     text-align: center;
     padding: 10px;
@@ -23,3 +47,8 @@ body {
     width: 100%;
     bottom: 0;
   }
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+}
